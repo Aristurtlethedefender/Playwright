@@ -1,0 +1,21 @@
+{
+  "name": "playwright",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "run-test": "echo 'hello world'",
+    "typecheck": "bun check",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "dependencies": {
+    "playwright": "^1.64.1"
+  }
+}
